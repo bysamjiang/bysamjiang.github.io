@@ -1,0 +1,149 @@
+/** default html **/
+	
+	html, body {
+	margin: 0;
+	padding: 0;
+	}
+	
+	html {
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	}
+	
+	body {
+	width: auto;
+	height: auto;
+	margin: 2.8em;
+	padding: 0;	
+	}
+	
+	section {
+	width: 960px;
+	}
+
+	hr {
+	margin: 0;
+	padding: 0;
+	border: none;
+    border-bottom: 1px solid #000;
+	}
+
+	hr.line {
+	margin: 0 0 2em 0;
+    border-bottom: 1px solid #000;
+	}
+	
+	hr.thick {
+	margin: 0 0 2em 0;
+    border-bottom: 2px solid #000;
+	}
+
+	/** lists **/
+
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	}
+
+	li {
+	list-style-type: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+	border: none;
+	font-family: 'Source Serif Pro', serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2em;
+	line-height: 1.3;
+	}
+
+/** tables **/
+
+	table {
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	table-layout: fixed;
+	border: none;
+	}
+	
+	th {
+	padding: 0;
+	font-family: 'Source Serif Pro', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.2;
+	text-align: left;
+	vertical-align: top;
+	text-decoration: underline;
+	border-bottom: 0px solid #ccc;
+	}
+	
+	td {
+	padding: 0 0 1em 0;
+	font-family: 'Source Serif Pro', serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2em;
+	line-height: 1.3;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 0px solid #ccc;
+	}
+	
+	td.year {
+	width: 25%
+	}
+
+	/** type **/
+
+	p {
+	margin: 0 0 1em 0;
+	padding: 0;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 0px;
+	}
+
+	h1 {
+	margin: 0 0 1.2em 0;
+	padding: 0;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 0px;
+	}
+	
+	h2 {
+	margin: 0 0 1.2em 0;
+	padding: 0;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 0px;
+	}
+	
+	h3 {
+	margin: 0 0 1.6em 0;
+	padding: 0;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 0px;
+	}
+	
+	span.title {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25em;
+	}
+	
+	strong {
+	font-weight: 400;
+	}
+	
+	/** fonts **/
